@@ -1,0 +1,15 @@
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+           "GET"
+        ],
+        "AllowedOrigins": [
+            "<URL of the bucket the require Cross Origin Access without slash at the end>"
+        ],
+        "ExposeHeaders": [],
+        "MaxAgeSeconds": 3000
+    }
+]
