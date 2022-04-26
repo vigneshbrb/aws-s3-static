@@ -11,11 +11,21 @@
   <div id="cors"></div>
 </body>
 
-<script>
+<!-- Uncomment below to see another page from same s3 bucket -->
+<!-- <script>
   var fetchanotherpage = document.getElementById("cors");
   fetch('another-page.html').then(response => response.text()).then(html => {
     fetchanotherpage.innerHTML = html;
   })
-</script>
+</script> -->
+
+
+<!-- Uncomment below to see another page from another s3 bucket -->
+<!-- <script>
+  var fetchanotherpage = document.getElementById("cors");
+  fetch('<S3 Static Website URL of another bucket>').then(response => response.text()).then(html => {
+    fetchanotherpage.innerHTML = html;
+  })
+</script> -->
 
 </html>
